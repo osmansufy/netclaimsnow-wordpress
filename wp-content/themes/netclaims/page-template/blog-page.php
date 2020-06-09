@@ -96,4 +96,4 @@ get_header( 'single' );
 ?>
 </div>
 <?php
-get_footer();
+get_footer('single');
