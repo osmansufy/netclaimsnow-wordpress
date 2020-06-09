@@ -1,0 +1,116 @@
+
+
+    
+
+    @media screen and (max-width: 990px){
+        .navbar-text{
+            width: 100%
+        }
+     .service-item{
+         margin-top: 65px !important;
+     }
+     .nav-width {
+        max-width: 100%;
+    }
+    .link {
+margin-top: 0;
+    }
+    .desktop-fixed-navbar {
+        width: 100%;
+        height: 75px;
+    }
+    
+    .footer-section {
+        height: auto;
+        padding: 50px 12.5px;
+    }
+    .div-block-8 {
+        width: 95%;
+        height: 100%;
+        padding-bottom: 10px;
+    }
+    .navbar-brand{
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            height: 100%;
+            padding-bottom: 0px;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            }
+       
+        a.w-nav-link {
+            left: 0px;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            width: 100%;
+            height: 50px;
+            margin-right: 0px;
+            margin-left: 0px;
+            padding: 0px;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            color: #222;
+            font-size: 12px;
+            font-weight: 600;
+            text-align: center;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+        .col-lg-4.service-item {
+            margin-top: 0px;
+        }
+    }
+    @media screen and (max-width:767px){
+        .col-lg-4.service-item {
+            margin-top: 20px;
+        }  
+        .hero-heading {
+            
+            font-size: 20px;
+           
+        }
+        .banner-buttons-wrapper {
+            flex-wrap: wrap;
+        }
+        .banner-buttons-wrapper .banner-colored-button {
+            margin-bottom: 20px;
+        }
+        .text-block, .text-block-2, .text-block-3 {
+            text-align: center;
+        }
+        .service-item {
+            margin-top: 10px !important;
+        }
+    }
+    @media screen and (max-width: 660px){
+        .team-member , .team-member.reverse {
+           
+            flex-direction: column-reverse;
+        }
+    }
+    @media screen and (max-width:480px){
+        .footer-menu {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        .navbar-brand {
+            width: 162px;
+        }
+    }
